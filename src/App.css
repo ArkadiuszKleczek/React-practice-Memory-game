@@ -1,6 +1,6 @@
 .App {
   max-width: 860px;
-  margin: 40px auto;
+  margin: 20px auto;
 }
 button {
   background: none;
@@ -13,6 +13,23 @@ button {
   font-size: 1em;
 }
 button:hover {
-  background: #c23866;
+  background: #94660a;
   color: #fff;
+}
+.card-grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+.card-element {
+  border: 3px solid #94660a;
+  border-radius: 2%;
+}
+.front{
+display: none;
+}
+
+.back {
+
 }

@@ -5,8 +5,10 @@
 body {
   font-family: 'Press Start 2P', cursive;
   margin: 0;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   text-align: center;
   background: #15061f;
   color: #fff;
+
+
 }
